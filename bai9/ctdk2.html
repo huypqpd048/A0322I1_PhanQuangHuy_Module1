@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="giatri">
+    <button id="num" onclick="chyendoi()">Chuyển đổi</button>
+    <p id="number"></p>
+    <script>
+        function chuyendoi(nhapvao) {
+            let doc = document.getElementById('number').innerText
+            document.getElementById('number').innerText = nhapvao
+            let dof = document.getElementById ('number') = doc * (9/5 + 32)
+            document.write(dof)
+        }
+
+    </script>
+</body>
+</html>

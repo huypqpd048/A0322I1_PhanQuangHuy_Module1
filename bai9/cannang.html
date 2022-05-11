@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cannang =prompt('mời nhập cân nặng')
+        let chieucao = prompt(' mời nhập chiều cao')
+        let trungbinh = cannang/((chieucao)^2)
+        if (trungbinh <= 18.5){
+            document.write('Underweight')
+        }else if (trungbinh <= 25 ) {
+            document.write('Nomal')
+        }else if (trungbinh <= 30){
+            document.write('overweight')
+        }else {
+            document.write('obese')
+        }
+    </script>
+</body>
+</html>

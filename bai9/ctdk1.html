@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//bai1
+       let a = prompt('mời bạn nhập vào số a :')
+       let b = prompt('mời bạn nhập vào số b :')
+       if (a % b == 0) {
+           alert ('a chia hết cho b')
+       }else {
+           alert ('a không chia hết cho b')
+       }
+//bai2 
+       let tuoi = prompt('mời nhập vào tuổi :')
+       if (tuoi >= 15) {
+           alert('bạn đủ điều kiện vào lớp 10')
+       }else{
+           alert('bạn không đủ điều kiện vào lớp 10')
+       }
+//bai3
+       let num = prompt('mời nhập vào số bất kì ')
+       if (num > 0) {
+           alert(num + 'lớn hơn 0')
+       }else {
+           alert(num + 'nhỏ hơn 0')
+       }
+//bai4
+       let so1 = prompt ('nhập số 1')
+       let so2 = prompt ('nhập số 2')
+       let so3 = prompt ('nhập số 3')
+       if (so1 > so2 && so3) {
+           alert(so1 + 'lớn nhất')
+       }else if (so2 > so1 && so3) {
+           alert (so2 + 'lớn nhất')
+       }else if (so3 > so1 && so2) {
+           alert(so3 + 'lớn nhất')
+       }else{
+           alert('mời nhập lại') 
+       }
+//bai5
+       let toan = prompt('điểm toán là :')
+       let ly = prompt('điểm toán là :')
+       let hoa = prompt('điểm toán là :')
+       let average = (toan + ly + hoa)/3
+       if (average >= 8) {
+           alert ('bạn được học sinh giỏi')
+       }else if (average >= 7) {
+           alert ('bạn được học sinh khá')
+       }else if (average >= 6) {
+           alert ('bạn được học sinh trung bình')
+       }else {
+           alert ('bạn cần cố gắn thêm')
+       }
+//bai6
+       let doanhso = prompt('doanh số tuần này của bạn :')
+       if (doanhso >= 20) {
+           alert('doanh số tuần này của bạn là '+ doanhso + 'bạn được thưởng 200000VND')
+       }else if (doanhso >= 15) {
+           alert ('doanh số tuần này của bạn là '+ doanhso + 'bạn được thưởng 150000VND')
+       }else if (doanhso >= 10) {
+           alert ('doanh số tuần này của bạn là '+ doanhso + 'bạn được thưởng 100000VND')
+       }else {
+           alert ('bạn cần cố gắn thêm')
+       }
+//bai7
+       
+    </script>
+
+</body>
+</html>
