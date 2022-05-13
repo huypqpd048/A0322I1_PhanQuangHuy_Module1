@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+        let arrs = []
+        let nhapvao = prompt('nhập vào phần tử trong mảng')
+        for (let x=1;x<nhapvao;x++){
+        arrs.push(prompt('nhập vào số tự nhiên'))
+        let v = arrs.push(prompt("nhap so V"))
+        let index = arrs.indexOf(v);
+        if(index<=0){
+            document.write("V is in the array" + arrs)
+        }else {
+        document.write( "V is not in the array" + arrs)}
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let index = -1
+        let arrs = []
+        let inPut = prompt('nhập số phần tử')
+        for (let x=1;x<=inPut;x++) {
+            arrs.push(prompt('nhập phần tử'))
+        }
+        let v = prompt('nhập số V')
+        index = arrs.indexOf(v)
+        if (index != -1) {
+            arrs.splice(index,1)
+        }
+        document.write(arrs)
+    </script>
+</body>
+</html>
