@@ -8,13 +8,14 @@
 </head>
 <body>
     <script>
-        let num = prompt (' nhập')
-        if (num / num > 2) {
-            alert (num + " không phải số nguyên tố")
-            
-        }else{
-            alert (num + ' là số nguyên tô')
+        function giathua() {
+            let nhap = prompt('nhập số nguyên ')
+            let fact = 1
+            for (let x = nhap -1 ; x >= 0 ; X-- ){
+                return fact = fact * nhap
+            }
         }
+        alert(giathua())
     </script>
 </body>
 </html>
